@@ -191,15 +191,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Fresher",
+    title: "Frontend Developer Fresher",
     desc: "Assisted in the development of a web-based platform using Wordpress, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Backend Intern",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using NestJS.",
+    title: "Backend Developer Intern",
+    desc: "Designed and developed web app using NestJS.",
     className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
