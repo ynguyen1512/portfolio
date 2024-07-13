@@ -84,7 +84,7 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/apolo.png", "/graphql.png", "/shadcn.png"],
-    link: "/ui.yoom.com",
+    link: "https://asset-management-web.vercel.app/",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ export const projects = [
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.png",
     iconLists: ["/html.png", "/css.png", "/js.png"],
-    link: "/ui.aiimg.com",
+    link: "https://ynguyen1512.github.io/spotify-app/",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.webp",
     iconLists: ["/re.svg", "/css.png", "/js.png", "/boot.png"],
-    link: "/ui.apple.com",
+    link: "https://65151b8504f8915636216cef--shiny-biscotti-9721fd.netlify.app/",
   },
   ,
   {
