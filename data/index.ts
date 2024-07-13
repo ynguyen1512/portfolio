@@ -118,7 +118,7 @@ export const projects = [
     des: "This is a platform for vegetarians",
     img: "/vegist.jpg",
     iconLists: ["/re.svg", "/css.png", "/js.png", "/boot.png"],
-    link: "/ui.apple.com",
+    link: "https://vegist-sage.vercel.app/",
   },
 ];
 
