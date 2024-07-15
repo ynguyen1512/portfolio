@@ -76,7 +76,7 @@ export const projects = [
     des: "Threads is an app from Instagram where you can view and share public conversations. Depending on how you use Threads, you can also post threads, reply to others and follow profiles you’re interested in. .",
     img: "/p1.webp",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "/ui.earth.com",
+    link: "https://threads-richard.vercel.app/",
   },
   {
     id: 2,
