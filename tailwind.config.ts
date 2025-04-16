@@ -119,6 +119,10 @@ const config = {
             transform: "translateX(-50%) translateY(-10%)",
           },
         },
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
         moveInCircle: {
           "0%": {
             transform: "rotate(0deg)",
@@ -148,6 +152,7 @@ const config = {
         },
       },
       animation: {
+        "infinite-scroll": "infinite-scroll 25s linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         spotlight: "spotlight 2s ease .75s 1 forwards",

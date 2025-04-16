@@ -3,11 +3,12 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
+import Image from "next/image";
 import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
@@ -27,12 +28,12 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <Image src="/bg.png" alt="bgimg" width={100} height={100} />
                 </div>
                 <img
-                  src={item?.img}
+                  src={item?.img || ""}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute bottom-0 object-contain"
                 />
               </div>
 
@@ -67,9 +68,9 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <a href={`${item?.link}`}>
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Site
-                  </p>
+                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                      Check Site
+                    </p>
                   </a>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>

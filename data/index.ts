@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Skills", link: "#skills" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -72,9 +72,9 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Threads",
-    des: "Threads is an app from Instagram where you can view and share public conversations. Depending on how you use Threads, you can also post threads, reply to others and follow profiles you’re interested in. .",
-    img: "/p1.webp",
+    title: "STEKShield",
+    des: "STEKSHIELD is a powerful but simple platform that puts a wide selection of tools at your fingertips. Now, you can manage your shop, customers, and more to boost your shop performance.",
+    img: "/projects-1.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://threads-richard.vercel.app/",
   },
@@ -83,42 +83,40 @@ export const projects = [
     title: "Asset Management",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/apolo.png", "/graphql.png", "/shadcn.png"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/apolo.png",
+      "/graphql.png",
+      "/shadcn.png",
+    ],
     link: "https://asset-management-web.vercel.app/",
   },
   {
     id: 3,
-    title: "Spotify",
+    title: "Thinkware CMS",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.png",
+    img: "/projects-2.png",
     iconLists: ["/html.png", "/css.png", "/js.png"],
     link: "https://ynguyen1512.github.io/spotify-app/",
   },
   {
     id: 4,
-    title: "Instagram",
+    title: "Edunet",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.webp",
+    img: "/projects-4.png",
     iconLists: ["/re.svg", "/css.png", "/js.png", "/boot.png"],
     link: "https://65151b8504f8915636216cef--shiny-biscotti-9721fd.netlify.app/",
   },
   ,
   {
     id: 5,
-    title: "Book Worm",
-    des: "This is a online platform where you can buy favourite book",
-    img: "/bookworm.png",
-    iconLists: ["/re.svg", "/css.png", "/js.png", "/boot.png","/redux.webp"],
+    title: "Prenex AI",
+    des: "PrenexAI empowers organizations to develop and deploy AI agents using their proprietary data with unparalleled ease. Build sophisticated models effortlessly, supporting text, images, voice, and video, and integrate flawlessly with platforms like Monday.com, AWS, Azure, and Google Cloud.",
+    img: "/projects-3.png",
+    iconLists: ["/re.svg", "/css.png", "/js.png", "/boot.png", "/redux.webp"],
     link: "https://www.richardnguyen.tech/",
-  },
-
-  {
-    id: 6,
-    title: "Vegist",
-    des: "This is a platform for vegetarians",
-    img: "/vegist.jpg",
-    iconLists: ["/re.svg", "/css.png", "/js.png", "/boot.png"],
-    link: "https://vegist-sage.vercel.app/",
   },
 ];
 
@@ -191,16 +189,39 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Developer Fresher",
-    desc: "Assisted in the development of a web-based platform using Wordpress, enhancing interactivity.",
+    title: "Frontend Developer Junior",
+    desc: [
+      "Work with Product Managers and Designers to implement and design the next generation of products",
+      "Architect, build, and test new features",
+      "Partner with backend teams to help shape API endpoints",
+      "Work with UX teams to deliver important functionality to our flagship application",
+      "Maintain excellent coding standards and practices",
+    ],
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/wala.jpeg",
   },
   {
     id: 2,
-    title: "Backend Developer Trainee",
-    desc: "Designed and developed web app using NestJS.",
-    className: "md:col-span-2", 
+    title: "Software Enginneer",
+    desc: [
+      "Custom Web & Mobile Development: Tailored solutions to fit your unique needs",
+      "Cross-Platform Expertise: High-performance apps for both iOS and Android",
+      "Agile Delivery: Fast development cycles for quicker time-to-market",
+      "Cutting-Edge Technologies: Using the latest tools for scalable, future-ready solutions",
+      "User-Focused Design: Intuitive, engaging experiences for your audience",
+    ],
+    className: "md:col-span-2",
+    thumbnail: "/midnight.jpeg",
+  },
+  {
+    id: 3,
+    title: "Backend Developer",
+    desc: [
+      "Acquired proficiency in technical skills including Git, Web Foundations, PostgreSQL, Node.js, TypeScript, NestJS, ReactJS, GraphQL, Docker, NextJS and AWS",
+      "Gained experience in team collaboration through the Scrum methodology and project management on Azure DevOps",
+      "Successfully developed two projects utilizing the aforementioned technologies and Scrum methodology, with guidance from seasoned mentors at NashTech",
+    ],
+    className: "md:col-span-2",
     thumbnail: "/p2.jpg",
   },
 ];
@@ -208,11 +229,7 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    img: "/facebook.svg",
   },
   {
     id: 3,
