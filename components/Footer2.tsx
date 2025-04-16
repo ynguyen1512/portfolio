@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   FaEnvelope,
   FaFacebook,
@@ -14,9 +15,11 @@ const Footer2 = () => {
           <div className="grid grid-cols-12 gap-10 border-b-[1px] pb-6">
             <div className="col-span-12 lg:col-span-4">
               <div className="logo">
-                <img
+                <Image
                   src="/avatar-richard.jpg"
                   alt="Logo"
+                  width={150}
+                  height={150}
                   className="rounded-full md:mb-2 md:w-[150px] md:h-[150px] object-cover max-sm:h-[150px] max-sm:w-[150px]"
                 />
               </div>

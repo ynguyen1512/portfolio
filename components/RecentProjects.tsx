@@ -30,9 +30,11 @@ const RecentProjects = () => {
                 >
                   <Image src="/bg.png" alt="bgimg" width={100} height={100} />
                 </div>
-                <img
+                <Image
                   src={item?.img || ""}
                   alt="cover"
+                  width={400}
+                  height={300}
                   className="z-10 absolute bottom-0 object-contain"
                 />
               </div>
@@ -61,7 +63,13 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <Image
+                        src={icon}
+                        alt="icon5"
+                        className="p-2"
+                        width={400}
+                        height={400}
+                      />
                     </div>
                   ))}
                 </div>
