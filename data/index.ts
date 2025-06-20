@@ -129,6 +129,38 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/react-query.png"],
     link: "https://prenex-ai.wala-ict.org/home",
   },
+  {
+    id: 6,
+    title: "Discovery Age Care",
+    des: "Discovery Age Care offers a modern, safe, and holistic environment for elderly individuals, combining medical support, technology, and wellness-focused living. Their goal is to enhance seniors' quality of life and ease caregiving responsibilities for families.",
+    img: "/projects-7.png",
+    iconLists: ["/react-logo.webp", "/tail.svg", "/ts.svg"],
+    link: "https://prenex-ai.wala-ict.org/home",
+  },
+  {
+    id: 7,
+    title: "Chop Chep Pets",
+    des: "Chop Chep is a brand specializing in high-quality food and fashion products for pets, blending elegance, personality, and style.",
+    img: "/projects-6.png",
+    iconLists: ["/html-logo.png", "/css.png", "/js.png"],
+    link: "https://www.chopchepets.com/",
+  },
+  {
+    id: 8,
+    title: "Discovery Petro",
+    des: "Discovery Petro is a prominent petroleum company, part of the Discovery Group. Specializing in oil refining, distribution, and energy exports, the company operates a wide network of fuel stations and contributes significantly to Vietnam’s energy market with a focus on sustainability and international trade.",
+    img: "/projects-9.png",
+    iconLists: ["/html-logo.png", "/css.png", "/js.png"],
+    link: "https://discoverypetro.vn/",
+  },
+  {
+    id: 9,
+    title: "Discovery Siltron",
+    des: "Discovery Siltron is a subsidiary of Discovery Group in Vietnam, pioneering in the research, production, and global supply of high-purity silicon-based materials for the semiconductor and chip industries.",
+    img: "/projects-8.png",
+    iconLists: ["/html-logo.png", "/css.png", "/js.png"],
+    link: "https://discoverypetro.vn/",
+  },
 ];
 
 export const testimonials = [
