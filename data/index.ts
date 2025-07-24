@@ -161,6 +161,14 @@ export const projects = [
     iconLists: ["/html-logo.png", "/css.png", "/js.png"],
     link: "https://discoverypetro.vn/",
   },
+  {
+    id: 10,
+    title: "Quiz Memory Card Game",
+    des: "Quiz Memory Card Game is a fun and interactive browser-based game that challenges players to match pairs of cards through memory and quick thinking. Built with Phaser and JavaScript, it offers a simple yet engaging experience designed to test cognitive skills and attention to detail.",
+    img: "/project-10.png",
+    iconLists: ["/phaser.png", "/js.png"],
+    link: "https://quiz-memory-card-game-d6q8.vercel.app/",
+  },
 ];
 
 export const testimonials = [
