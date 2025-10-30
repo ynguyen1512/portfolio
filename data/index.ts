@@ -249,6 +249,17 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    title: "Software Engineer",
+    desc: [
+      " Developed and maintained web applications using React.js, Node.js, and MongoDB, resulting in a 20% increase in user engagement.",
+      " Collaborated with cross-functional teams to design and implement new features, improving overall application performance by 15%.",
+      " Implemented responsive design principles to ensure seamless user experiences across various devices and screen sizes.",
+    ],
+    className: "md:col-span-2",
+    thumbnail: "/upskills.jpeg",
+  },
+  {
+    id: 2,
     title: "Frontend Developer Junior",
     desc: [
       "Work with Product Managers and Designers to implement and design the next generation of products",
@@ -261,7 +272,7 @@ export const workExperience = [
     thumbnail: "/wala.jpeg",
   },
   {
-    id: 2,
+    id: 3,
     title: "Software Enginneer",
     desc: [
       "Custom Web & Mobile Development: Tailored solutions to fit your unique needs",
@@ -274,7 +285,7 @@ export const workExperience = [
     thumbnail: "/midnight.jpeg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Backend Developer",
     desc: [
       "Acquired proficiency in technical skills including Git, Web Foundations, PostgreSQL, Node.js, TypeScript, NestJS, ReactJS, GraphQL, Docker, NextJS and AWS",
