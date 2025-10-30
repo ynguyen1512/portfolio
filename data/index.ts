@@ -168,7 +168,7 @@ export const projects = [
     des: "Discovery Siltron is a subsidiary of Discovery Group in Vietnam, pioneering in the research, production, and global supply of high-purity silicon-based materials for the semiconductor and chip industries.",
     img: "/projects-8.png",
     iconLists: ["/html-logo.png", "/css.png", "/js.png"],
-    link: "hhttps://discoverysiltron.vn/",
+    link: "https://discoverysiltron.vn/",
   },
   {
     id: 10,
